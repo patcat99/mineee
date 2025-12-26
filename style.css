@@ -1,0 +1,571 @@
+html, body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+
+
+#mode {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.change {
+   transform: translate(20px, -600px);
+   position: relative;
+}
+
+.violet {
+    position: relative;
+    bottom: 460px;
+    left: 580px;
+    height: 200px;
+    width: 200px;
+
+        animation-name: down;
+    animation-duration: 1s;
+}
+
+.con {
+    animation-name: upp;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+@keyframes upp {
+    0% {
+        transform: translateY(-15px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.ig, .discord {
+    width: 100px;
+    height: 100px;
+}
+
+.ig {
+    position: relative;
+    bottom: 340px;
+    left: 520px;
+}
+
+.discord {
+     position: relative;
+    bottom: 340px;
+    left: 550px;
+
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(-15px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.main {
+    color: rgb(228, 217, 117);
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 30px;
+    position: relative;
+    bottom: 400px;
+    left: 380px;
+
+        animation-name: up;
+    animation-duration: .3s;
+    animation-timing-function: ease-in;
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+}
+
+.main2 {
+        color: rgb(228, 217, 117);
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 30px;
+    position: relative;
+    bottom: 560px;
+    left: 380px;
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+}
+
+.main3 {
+        color: rgb(228, 217, 117);
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 30px;
+    position: relative;
+    bottom: 650px;
+    left: 380px;
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+         animation-name: up;
+    animation-duration: 1s;
+
+
+}
+
+
+.main:hover {
+    border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;                                     
+}
+
+.main2:hover {
+     border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;
+}
+
+.main3:hover {
+     border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;
+}
+
+
+.about {
+    color: rgb(228, 217, 117);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 30px;
+    position: relative;
+    bottom: 465px;
+    left: 585px;
+
+        animation-name: up;
+    animation-duration: .3s;
+    animation-timing-function: ease-in;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+}
+
+.about2 {
+     color: rgb(228, 217, 117);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 30px;
+    position: relative;
+    bottom: 630px;
+    left: 585px;
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
+.about3 {
+     color: rgb(228, 217, 117);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 30px;
+    position: relative;
+    bottom: 712px;
+    left: 585px;
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+         animation-name: up;
+    animation-duration: 1s;
+
+}
+
+
+.about:hover {
+    border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;                                     
+}
+
+.about2:hover {
+     border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;
+}
+
+
+.about3:hover {
+     border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;
+}
+
+
+.contact {
+    color:rgb(228, 217, 117);
+    width: 155px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 30px;
+    position: relative;
+    bottom: 530px;
+    left: 835px;
+
+        animation-name: up;
+    animation-duration: .3s;
+    animation-timing-function: ease-in;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+}
+
+.contact2 {
+    color:rgb(228, 217, 117);
+    width: 155px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 30px;
+    position: relative;
+    bottom: 695px;
+    left: 835px;
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+}
+
+.contact3 {
+    color:rgb(228, 217, 117);
+    width: 155px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 30px;
+    position: relative;
+    bottom: 775px;
+    left: 835px;
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+    animation-name: up;
+    animation-duration: 1s;
+
+
+}
+
+
+.contact:hover {
+    border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;                                     
+}
+
+.contact2:hover {
+     border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;
+}
+
+.contact3:hover {
+     border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;
+}
+
+
+.navbar {
+    animation-name: up;
+    animation-duration: 1s;
+}
+
+@keyframes up {
+    0% {
+        transform: translateY(20px);
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.teks {
+    bottom: 600px;
+    left: 70px;
+    max-width: 1100px;
+    position: relative;
+    text-decoration: none;
+    font-size: 17px;
+    color:rgb(228, 217, 117);
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;}
+
+.p1 {
+    max-width: 100%;               
+  white-space: nowrap;         
+  overflow: hidden;            
+  border-right: 3px solid;    
+  border-color: transparent; 
+  animation:
+    typing 6s steps(100),
+    blink 0.7s step-end  8;
+}
+
+.p2 {
+  display: inline-block;   
+  transform: translateY(-25px);
+  width:0;                
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid transparent;
+
+  animation:
+    typing2 6s steps(100) 6s forwards,
+    blink2 0.7s step-end 6s 8;
+}
+
+.p3 {
+  display: inline-block;   
+  transform: translateY(-45px);
+  width:0;                
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid transparent;
+
+  animation:
+    typing3 6s steps(100) 12s forwards,
+    blink3 0.7s step-end 12s 8;
+}
+
+.p4 {
+  display: inline-block;   
+  transform: translateY(-65px);
+  width:0;                
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid transparent;
+
+  animation:
+    typing4 6s steps(100) 18s forwards,
+    blink4 0.7s step-end 18s 8;
+}
+
+.p5 {
+  display: inline-block;   
+  transform: translateY(-85px);
+  width:0;                
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid transparent;
+
+  animation:
+    typing5 6s steps(100) 24s forwards,
+    blink5 0.7s step-end 24s 8;
+}
+
+.p6 {
+  display: inline-block;   
+  transform: translateY(-100px);
+  width:0;                
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid transparent;
+
+  animation:
+    typing6 6s steps(100) 30s forwards,
+    blink6 0.7s step-end 30s 8;
+}
+
+.p7 {
+  display: inline-block;   
+  transform: translateY(-120px);
+  width:0;                
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid transparent;
+
+  animation:
+    typing7 6s steps(100) 36s forwards,
+    blink7 0.7s step-end 36s 8;
+}
+
+
+
+
+
+
+          
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes blink  {
+    50% {
+        border-color: rgb(228, 217, 117);
+    }
+}
+
+@keyframes typing2 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes blink2 {
+    50%{
+        border-color: bisque;
+    }
+}
+
+@keyframes typing3 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes blink3 {
+    50%{
+        border-color: bisque;
+    }
+}
+
+@keyframes typing4 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes blink4 {
+    50%{
+        border-color: bisque;
+    }
+}
+
+@keyframes typing5 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes blink5 {
+    50%{
+        border-color: bisque;
+    }
+}
+
+@keyframes typing6 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes blink6 {
+    50%{
+        border-color: bisque;
+    }
+}
+
+@keyframes typing7 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes blink7 {
+    50%{
+        border-color: bisque;
+    }
+}
